@@ -1,5 +1,5 @@
 /* for smartphones */
-@media (min-width: 375px) and (max-width: 500px) {
+@media (max-width: 500px) {
     body {
         width: 100%;
         height: 100vh;
@@ -15,9 +15,14 @@
         font-size: 1.3rem;
     }
 
+    #header-showcase {
+        width: 100%;
+    }
+
     #header-showcase .my-works {
-        width: 80%;
-        display: block;
+        width: 300px;
+        display: grid;
+        grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -34,7 +39,7 @@
     }
 
     #header-showcase .video-resources {
-        width: 430px;
+        width: 350px;
         display: grid;
         grid-gap: 2rem;
         grid-template-columns: 1fr;
@@ -93,7 +98,7 @@
 
     .reach-me>div>p {
         width: 70%;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .reach-me>div {
